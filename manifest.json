@@ -2,10 +2,17 @@
   "manifest_version": 3,
   "name": "GITAM AutoPass Pro",
   "version": "1.4",
+  "description": "Auto login helper for GITAM portal. Free to install with optional premium features.",
   "permissions": ["storage"],
+
+  "icons": {
+    "128": "icon128.png"
+  },
+
   "action": {
     "default_popup": "popup.html"
   },
+
   "content_scripts": [
     {
       "matches": ["https://login.gitam.edu/*"],
